@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: change-table-author
+      author: Max
+      changes:
+        - renameTable:
+            newTableName: aothors
+            oldTableName: author
+

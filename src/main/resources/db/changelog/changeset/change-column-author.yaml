@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: change-column-author
+      author: Max
+      changes:
+        - renameColumn:
+            tableName: author
+            newColumnName: fullname
+            oldColumnName: name
+
